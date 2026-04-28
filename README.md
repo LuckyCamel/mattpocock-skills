@@ -10,13 +10,13 @@ If you want to keep up with changes to these skills, and any new ones I create, 
 
 These skills help you think through problems before writing code.
 
-- **to-prd** — Turn the current conversation context into a PRD and submit it as a GitHub issue. No interview — just synthesizes what you've already discussed.
+- **to-prd** — Turn the current conversation context into a PRD and submit it as a GitLab issue using glab. No interview — just synthesizes what you've already discussed.
 
   ```
   npx skills@latest add mattpocock/skills/to-prd
   ```
 
-- **to-issues** — Break any plan, spec, or PRD into independently-grabbable GitHub issues using vertical slices.
+- **to-issues** — Break any plan, spec, or PRD into independently-grabbable GitLab issues using vertical slices.
 
   ```
   npx skills@latest add mattpocock/skills/to-issues
@@ -34,7 +34,7 @@ These skills help you think through problems before writing code.
   npx skills@latest add mattpocock/skills/design-an-interface
   ```
 
-- **request-refactor-plan** — Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue.
+- **request-refactor-plan** — Create a detailed refactor plan with tiny commits via user interview, then file it as a GitLab issue using glab.
 
   ```
   npx skills@latest add mattpocock/skills/request-refactor-plan
@@ -50,7 +50,7 @@ These skills help you write, refactor, and fix code.
   npx skills@latest add mattpocock/skills/tdd
   ```
 
-- **triage-issue** — Investigate a bug by exploring the codebase, identify the root cause, and file a GitHub issue with a TDD-based fix plan.
+- **triage-issue** — Investigate a bug by exploring the codebase, identify the root cause, and file a GitLab issue with a TDD-based fix plan using glab.
 
   ```
   npx skills@latest add mattpocock/skills/triage-issue
@@ -86,6 +86,12 @@ These skills help you write, refactor, and fix code.
 
   ```
   npx skills@latest add mattpocock/skills/git-guardrails-claude-code
+  ```
+
+- **gitlab-triage** — Triage GitLab issues through a label-based state machine using glab.
+
+  ```
+  npx skills@latest add mattpocock/skills/gitlab-triage
   ```
 
 ## Writing & Knowledge

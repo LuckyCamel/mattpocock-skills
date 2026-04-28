@@ -1,6 +1,6 @@
 ---
 name: to-prd
-description: Turn the current conversation context into a PRD and submit it as a GitHub issue. Use when user wants to create a PRD from the current context.
+description: Turn the current conversation context into a PRD and submit it as a GitLab issue using glab. Use when user wants to create a PRD from the current context.
 ---
 
 This skill takes the current conversation context and codebase understanding and produces a PRD. Do NOT interview the user — just synthesize what you already know.
@@ -15,7 +15,7 @@ A deep module (as opposed to a shallow module) is one which encapsulates a lot o
 
 Check with the user that these modules match their expectations. Check with the user which modules they want tests written for.
 
-3. Write the PRD using the template below and submit it as a GitHub issue.
+3. Write the PRD using the template below and create a GitLab issue with `glab issue create` (non-interactive: use `-t` / `--title` for the title, `-d` / `--description` for the body from the filled template, and `-y` / `--yes` to submit without prompts). Ensure `glab` is authenticated for the project's GitLab host and the repo is resolved from `git remote` (use `-R OWNER/REPO` or group path if needed).
 
 <prd-template>
 
